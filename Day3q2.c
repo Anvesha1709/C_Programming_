@@ -19,7 +19,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Swapping using a third variable
+    
     temp = a;
     a = b;
     b = temp;
