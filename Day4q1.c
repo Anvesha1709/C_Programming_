@@ -19,7 +19,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Swapping without third variable (using arithmetic)
+    
     a = a + b;
     b = a - b;
     a = a - b;
