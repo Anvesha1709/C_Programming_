@@ -14,7 +14,7 @@ Area=28.27, Circumference=18.85
 
 */
 #include <stdio.h>
-#define PI 3.14159   // Defining the value of π
+#define PI 3.14159   
 
 int main() {
     float radius;
