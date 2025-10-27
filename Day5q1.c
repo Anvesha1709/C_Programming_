@@ -13,17 +13,17 @@ Output 2:
 Simple Interest=1050, Compound Interest=1125.76
 
 */#include <stdio.h>
-#include <math.h>   // for pow()
+#include <math.h>   
 
 int main() {
     float principal, rate, time;
     printf("Enter Principal, Rate, and Time: ");
     scanf("%f %f %f", &principal, &rate, &time);
 
-    // Simple Interest
+    
     float SI = (principal * rate * time) / 100;
 
-    // Compound Interest
+    
     float CI = principal * (pow((1 + rate / 100), time)) - principal;
 
     printf("Simple Interest=%.2f, Compound Interest=%.2f\n", SI, CI);
