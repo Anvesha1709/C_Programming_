@@ -21,15 +21,15 @@ Output 1:
 
 int main() {
     int i, j, k;
-    int n = 5; // number of rows
+    int n = 5; 
 
     for (i = n; i >= 1; i--) {
-        // print spaces
+        
         for (j = 1; j < i; j++) {
             printf(" ");
         }
 
-        // print numbers from i to n
+        
         for (k = i; k <= n; k++) {
             printf("%d", k);
         }
