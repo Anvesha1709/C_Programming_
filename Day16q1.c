@@ -26,7 +26,7 @@ int main() {
         return 0;
     }
 
-    // Convert to binary by repeatedly dividing by 2
+    
     while (num > 0) {
         binary[i] = num % 2;
         num = num / 2;
@@ -34,7 +34,7 @@ int main() {
     }
 
     printf("Binary: ");
-    // Print the binary digits in reverse order
+    
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
