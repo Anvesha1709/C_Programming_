@@ -25,7 +25,7 @@ int main() {
 
     original = num;
 
-    // Find the number of digits
+    
     while (original != 0) {
         original /= 10;
         ++n;
@@ -33,14 +33,14 @@ int main() {
 
     original = num;
 
-    // Calculate the sum of each digit raised to the power of n
+    
     while (original != 0) {
         remainder = original % 10;
         result += pow(remainder, n);
         original /= 10;
     }
 
-    // Compare the sum with the original number
+    
     if ((int)result == num)
         printf("Armstrong\n");
     else
