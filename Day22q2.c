@@ -19,18 +19,16 @@ int main() {
     int n;
     float sum = 0.0;
     int numerator = 1, denominator = 2;
-
-    // Input
     scanf("%d", &n);
 
-    // Loop for n terms
+
     for (int i = 1; i <= n; i++) {
         sum += (float)numerator / denominator;
         numerator += 2;
         denominator += 2;
     }
 
-    // Output (approximate sum)
+    
     printf("Approximate sum: %.1f", sum);
 
     return 0;
