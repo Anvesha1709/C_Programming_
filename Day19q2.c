@@ -22,9 +22,9 @@ int main() {
     scanf("%d", &n);
 
     while (n > 0) {
-        digit = n % 10;   // Extract the last digit
-        sum += digit;     // Add it to the sum
-        n /= 10;          // Remove the last digit
+        digit = n % 10;   
+        sum += digit;     
+        n /= 10;          
     }
 
     printf("Sum of digits: %d\n", sum);
