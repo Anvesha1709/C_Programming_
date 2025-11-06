@@ -27,19 +27,18 @@ int factorial(int n) {
 int main() {
     int num, temp, digit, sum = 0;
     
-    // Input
     scanf("%d", &num);
     
     temp = num;
     
-    // Calculate sum of factorial of digits
+
     while (temp > 0) {
         digit = temp % 10;
         sum += factorial(digit);
         temp /= 10;
     }
     
-    // Check condition
+
     if (sum == num)
         printf("Strong number");
     else
