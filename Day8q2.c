@@ -18,10 +18,10 @@ Largest is 0
 int main() {
     int a, b, c;
 
-    // Taking input from user
+    
     scanf("%d %d %d", &a, &b, &c);
 
-    // Checking largest number using if-else
+    
     if (a >= b && a >= c) {
         printf("Largest is %d\n", a);
     }
