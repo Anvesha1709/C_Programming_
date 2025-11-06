@@ -18,21 +18,21 @@ Output 2:
 int main() {
     int num, digit;
     int product = 1;
-    int hasOdd = 0;  // To check if there are any odd digits
+    int hasOdd = 0;  
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
     while (num > 0) {
-        digit = num % 10;  // Get last digit
-        if (digit % 2 != 0) {  // Check if odd
+        digit = num % 10;  
+        if (digit % 2 != 0) {  
             product *= digit;
-            hasOdd = 1;  // Mark that we found at least one odd digit
+            hasOdd = 1;  
         }
-        num /= 10;  // Remove last digit
+        num /= 10;  
     }
 
-    // If no odd digits, product remains 1 (as per question)
+    
     printf("Product of odd digits: %d\n", product);
 
     return 0;
