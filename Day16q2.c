@@ -21,12 +21,12 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    original = num;  // Store original number for comparison
+    original = num;  
 
     while (num != 0) {
-        remainder = num % 10;               // Get last digit
-        reversed = reversed * 10 + remainder; // Build reversed number
-        num = num / 10;                     // Remove last digit
+        remainder = num % 10;               
+        reversed = reversed * 10 + remainder; 
+        num = num / 10;                     
     }
 
     if (original == reversed)
