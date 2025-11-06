@@ -27,19 +27,19 @@ Note: Spaces indicate indentation.
 int main() {
     int i, j, space;
 
-    // Outer loop for rows
+
     for (i = 0; i < 5; i++) {
-        // Print leading spaces
+       
         for (space = 0; space < i; space++) {
             printf(" ");
         }
 
-        // Print stars
+       
         for (j = 5; j > i; j--) {
             printf("*");
         }
 
-        printf("\n"); // Move to next line after each row
+        printf("\n"); 
     }
 
     return 0;
