@@ -18,25 +18,23 @@ Output 2:
 int main() {
     int n, i, j, isPrime;
 
-    // Input upper limit
+    
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
     printf("Prime numbers from 1 to %d are:\n", n);
-
-    // Loop from 2 to n (since 1 is not prime)
     for (i = 2; i <= n; i++) {
-        isPrime = 1; // assume i is prime
+        isPrime = 1; 
 
-        // check divisibility
+        
         for (j = 2; j <= i / 2; j++) {
             if (i % j == 0) {
-                isPrime = 0; // not prime
+                isPrime = 0; 
                 break;
             }
         }
 
-        // if still prime, print it
+        
         if (isPrime == 1)
             printf("%d ", i);
     }
