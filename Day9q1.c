@@ -24,13 +24,13 @@ Roots are complex
 int main() {
     float a, b, c, D, root1, root2, realPart, imagPart;
 
-    // Input coefficients
+    
     scanf("%f %f %f", &a, &b, &c);
 
-    // Calculate discriminant
+    
     D = b*b - 4*a*c;
 
-    // Conditions for roots
+    
     if (D > 0) {
         root1 = (-b + sqrt(D)) / (2*a);
         root2 = (-b - sqrt(D)) / (2*a);
