@@ -20,17 +20,16 @@ int main() {
     float sum = 0.0;
     int numerator = 2, denominator = 3;
 
-    // Input
     scanf("%d", &n);
 
-    // Loop for n terms
+    
     for (int i = 1; i <= n; i++) {
         sum += (float)numerator / denominator;
         numerator += 2;
         denominator += 4;
     }
 
-    // Output (approximate sum)
+    
     printf("Approximate sum: %.2f", sum);
 
     return 0;
