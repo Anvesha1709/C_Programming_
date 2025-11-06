@@ -33,10 +33,10 @@ Grade F
 int main() {
     int percent;
 
-    // Taking input
+
     scanf("%d", &percent);
 
-    // Checking grade
+    
     if (percent >= 90 && percent <= 100) {
         printf("Grade A\n");
     }
