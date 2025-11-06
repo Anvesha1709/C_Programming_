@@ -21,7 +21,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Find HCF first
+    
     int min = (a < b) ? a : b;
     for (i = 1; i <= min; i++) {
         if (a % i == 0 && b % i == 0) {
@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    // Calculate LCM using the relationship: a × b = HCF × LCM
+    
     lcm = (a * b) / hcf;
 
     printf("LCM of %d and %d is: %d\n", a, b, lcm);
