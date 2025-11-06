@@ -28,10 +28,10 @@ Special character
 int main() {
     char ch;
 
-    // Taking character input
+    
     scanf("%c", &ch);
 
-    // Checking character type
+    
     if (ch >= 'A' && ch <= 'Z') {
         printf("Uppercase alphabet\n");
     }
