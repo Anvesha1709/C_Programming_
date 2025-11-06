@@ -22,7 +22,7 @@ int main() {
     printf("Enter a binary number: ");
     scanf("%s", binary);
 
-    // Loop through each character of the string
+    
     for (int i = 0; i < strlen(binary); i++) {
         if (binary[i] == '0')
             binary[i] = '1';
