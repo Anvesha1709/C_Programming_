@@ -28,7 +28,7 @@ int main() {
     int a, b;
     char op;
 
-    // Input two numbers and operator
+    
     scanf("%d %d %c", &a, &b, &op);
 
     switch (op) {
