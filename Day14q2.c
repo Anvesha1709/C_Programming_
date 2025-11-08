@@ -17,12 +17,12 @@ Output 2:
 
 int main() {
     int n, i;
-    long long product = 1;  // Use long long for large values
+    long long product = 1;  
 
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
-    // Check if there are even numbers
+    
     if (n < 2) {
         printf("No even numbers in the range.\n");
         return 0;
