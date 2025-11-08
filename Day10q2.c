@@ -18,10 +18,10 @@ Friday
 int main() {
     int day;
 
-    // Taking input
+    
     scanf("%d", &day);
 
-    // Switch case to check day
+
     switch(day) {
         case 1: printf("Monday\n"); break;
         case 2: printf("Tuesday\n"); break;
