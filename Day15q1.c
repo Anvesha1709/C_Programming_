@@ -17,7 +17,7 @@ Output 2:
 
 int main() {
     int n, i;
-    long long fact = 1; // use long long to handle large factorial values
+    long long fact = 1; 
 
     printf("Enter a number: ");
     scanf("%d", &n);
