@@ -22,9 +22,9 @@ int main() {
     scanf("%d", &num);
 
     while (num != 0) {
-        remainder = num % 10;           // Get the last digit
-        reversed = reversed * 10 + remainder; // Add it to reversed number
-        num = num / 10;                 // Remove the last digit
+        remainder = num % 10;           
+        reversed = reversed * 10 + remainder;
+        num = num / 10;                 
     }
 
     printf("Reversed number: %d\n", reversed);
