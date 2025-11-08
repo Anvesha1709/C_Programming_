@@ -22,7 +22,7 @@ No Profit No Loss
 int main() {
     float cp, sp, percent;
     
-    // Taking input
+    
     scanf("%f %f", &cp, &sp);
     
     if (sp > cp) {
