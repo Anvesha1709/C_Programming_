@@ -4,7 +4,7 @@
 int main() {
     int days, fine = 0;
 
-    // Taking input
+    
     scanf("%d", &days);
 
     if (days <= 5) {
