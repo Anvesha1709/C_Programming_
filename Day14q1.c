@@ -22,16 +22,16 @@ Q27: Write a program to print the sum of the first n odd numbers.
 int main() {
     int n, sum = 0, i, odd = 1;
 
-    // Input n
+    
     scanf("%d", &n);
 
-    // Loop to add first n odd numbers
+    
     for (i = 1; i <= n; i++) {
-        sum += odd;   // Add current odd number
-        odd += 2;     // Next odd number
+        sum += odd;   
+        odd += 2;     
     }
 
-    // Output the result
+    
     printf("%d\n", sum);
 
     return 0;
