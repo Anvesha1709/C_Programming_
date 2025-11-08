@@ -22,10 +22,10 @@ Q26: Write a program to print numbers from 1 to n.
 int main() {
     int n;
     
-    // Input n
+    
     scanf("%d", &n);
     
-    // Loop from 1 to n
+
     for (int i = 1; i <= n; i++) {
         printf("%d ", i);
     }
