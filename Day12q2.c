@@ -28,7 +28,7 @@ int main() {
     int units;
     int bill = 0;
 
-    // Input number of units
+    
     scanf("%d", &units);
 
     if (units <= 100) {
