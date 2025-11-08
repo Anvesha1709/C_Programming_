@@ -23,11 +23,11 @@ Scalene
 int main() {
     int a, b, c;
 
-    // Taking input
+    
     printf("Enter the sides of the triangle: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    // Check if valid triangle first
+    
     if (a + b > c && a + c > b && b + c > a) {
 
         if (a == b && b == c) {
